@@ -14,7 +14,11 @@ nix develop
 
 Testing:
 ```sh
-agda -V
+agda Hello
+```
+should return something like
+```text
+Checking Hello (.../agda-hello/Hello.agda).
 ```
 
 Type checking example file:

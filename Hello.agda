@@ -7,9 +7,11 @@ data Bool : Set where
   false : Bool
 
 _&&_ : Bool -> Bool -> Bool
-true && b = b
+true && b  = b
 false && b = false
 
+{-
 &&-sym : forall (a b : Bool)
         -> (a && b) ≡ (b && a)
 &&-sym a b = {!   !}
+-}
