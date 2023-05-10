@@ -22,7 +22,7 @@ nix develop
 
 1. In command line:
 ```sh
-agda Hello
+agda Hello.agda
 ```
 should return something like
 ```text
