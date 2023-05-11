@@ -17,5 +17,6 @@ jobs:
 
       - name: Check file
         run: |
-          sudo apt-get install -y agda,
+          sidp apt-get update,
+          sudo apt-get install -y agda agda-stdlib,
           agda Hello.agda
